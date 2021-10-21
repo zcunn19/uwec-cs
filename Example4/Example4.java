@@ -1,12 +1,12 @@
-package Ex4;
+package Example4;
 import java.util.*;
 
-public class Ex4 {
+public class Example4 {
     public static void main(String[] args) {
 
 
         Scanner textInput = new Scanner(System.in);
-
+        
 
         System.out.print("Enter number of Rows: ");
         int rows = textInput.nextInt();
