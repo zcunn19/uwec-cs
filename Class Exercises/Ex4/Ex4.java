@@ -1,4 +1,3 @@
-package Ex4;
 import java.util.*;
 
 public class Ex4 {
