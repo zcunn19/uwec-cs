@@ -1,7 +1,7 @@
-package Example4;
+package Ex4;
 import java.util.*;
 
-public class Example4 {
+public class Ex4 {
     public static void main(String[] args) {
 
 
