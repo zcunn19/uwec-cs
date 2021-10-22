@@ -14,11 +14,11 @@ double median(int arr[], int size)
 void mergeArrays()
 {
     int size;
-    cout << "enter size of data array: ";
+    cout << "enter size of array: ";
     cin >> size;
 
-    double data[size]; //declare array
-    double dat;
+    int data[size]; //declare array
+    int dat;
 
     //fill array
     for (int i = 0; i < size; i++)
@@ -29,11 +29,11 @@ void mergeArrays()
     }
 
     int size2;
-    cout << "enter size of data array: ";
+    cout << "enter size of array: ";
     cin >> size2;
 
-    double data2[size2]; //declare 2nd array
-    double dat2;
+    int data2[size2]; //declare 2nd array
+    int dat2;
 
     //fill array 2
     for (int i = 0; i < size2; i++)
