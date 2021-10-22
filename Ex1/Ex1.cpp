@@ -32,4 +32,6 @@ int main()
     cin >> num2;
 
     multiplyAdd(num1, num2);
+
+    return 0;
 }

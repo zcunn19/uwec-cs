@@ -50,6 +50,8 @@ public class Example4 {
             }
             System.out.println();
         }
+
+        textInput.close();
     }
     
 }
