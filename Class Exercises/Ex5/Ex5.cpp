@@ -22,7 +22,6 @@ void rearrangeEvenAndOdd(int arr[], int n){
 }
 
 
- 
 int main() {
 
     int size;
