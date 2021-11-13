@@ -1,3 +1,4 @@
+import java.io.*;
 import java.util.*;
 
 public class N11 {
@@ -13,11 +14,15 @@ public class N11 {
         System.out.print("Enter pattern string: ");
         pString = input.next();
 
+        input.close();
 
+        System.out.println("Smallest Window:" + getWindow(iString, pString));
     }
 
 
-    public String getWindow (String iString, String pString) {
+    public static String getWindow (String iString, String pString) {
+
+        String result = null;
 
         if (iString.length() < pString.length()){
             System.out.println("Pattern string is greater than input string;");
@@ -33,7 +38,7 @@ public class N11 {
             }
         }
 
-        for (int o = 0; o < j; o++){
+        for (int o = 0; o < value; o++){
 
             String tString = sArray[o];
             char[] cArray = pString.toCharArray();
@@ -57,9 +62,9 @@ public class N11 {
 
             if (count <= 0){
                 sArray[o] = sArray[o].substring(0, lIndex + 1);
+                result = sArray[o].length() < result.length() ? sArray[o] : result;
             }
         }
-
-        return "";
+        return result;
     }
 }
