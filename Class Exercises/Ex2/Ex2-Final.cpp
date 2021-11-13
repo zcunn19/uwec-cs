@@ -14,7 +14,7 @@ double median(int arr[], int size)
 void mergeArrays()
 {
     int size;
-    cout << "enter size of array: ";
+    cout << "enter size of array 1: ";
     cin >> size;
 
     int data[size]; //declare array
@@ -29,7 +29,7 @@ void mergeArrays()
     }
 
     int size2;
-    cout << "enter size of array: ";
+    cout << "enter size of array 2: ";
     cin >> size2;
 
     int data2[size2]; //declare 2nd array
@@ -51,7 +51,6 @@ void mergeArrays()
     std::copy(data, data + m, arr);
     std::copy(data2, data2 + n, arr + m);
 
-    //print median
     int arrSize = sizeof(arr) / sizeof(arr[0]);
 
     //sort array
@@ -65,6 +64,7 @@ void mergeArrays()
         std::cout << arr[i] << ' ';
     }
 
+    //Print median of sorted array
     cout << endl;
     cout << "Median: " << median(arr, arrSize);
 }

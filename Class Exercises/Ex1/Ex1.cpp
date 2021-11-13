@@ -1,37 +1,34 @@
 #include <iostream>
 using namespace std;
 
-void multiplyAdd (int num1, int num2) {
-    int addition = num1 + num2;
-    int multiplication = num1 * num2;
+void multiplyAdd()
+{
+    int num1, num2, *num1p, *num2p;
+
+    cout << "Enter number 1: ";
+    cin >> num1;
+
+    num1p = &num1;
+
+    cout << "Enter number 2: ";
+    cin >> num2;
+
+    num2p = &num2;
+
+    int addition = *num1p + *num2p;
+    int multiplication = *num1p * *num2p;
 
     cout << "Added: ";
     cout << addition << endl;
 
     cout << "Multiplied: ";
     cout << multiplication << endl;
-
 }
+
 
 int main()
 {
-
-    int num1;
-    int num2;
-
-    int *num1p;
-    int *num2p;
-
-    num1p = &num1;
-    num2p = &num2;
-
-    cout << "Enter number 1: ";
-    cin >> num1;
-
-    cout << "Enter number 2: ";
-    cin >> num2;
-
-    multiplyAdd(num1, num2);
+    multiplyAdd();
 
     return 0;
 }
