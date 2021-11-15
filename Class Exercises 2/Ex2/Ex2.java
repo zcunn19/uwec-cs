@@ -40,7 +40,7 @@ public class Ex2 {
             case "male":
                 string = "boy";
                 break;
-            case "Female":
+            case "female":
                 string = "girl";
                 break;
             }
@@ -60,7 +60,7 @@ public class Ex2 {
             case "male":
                 string = "boy";
                 break;
-            case "Female":
+            case "female":
                 string = "girl";
                 break;
             }
@@ -79,7 +79,7 @@ public class Ex2 {
             case "male":
                 string = "man";
                 break;
-            case "Female":
+            case "female":
                 string = "woman";
                 break;
             }
@@ -108,7 +108,7 @@ public class Ex2 {
             case "male":
                 string = "man";
                 break;
-            case "Female":
+            case "female":
                 string = "woman";
                 break;
             }
@@ -166,7 +166,7 @@ public class Ex2 {
             case "male":
                 string = "man";
                 break;
-            case "Female":
+            case "female":
                 string = "woman";
                 break;
             }
