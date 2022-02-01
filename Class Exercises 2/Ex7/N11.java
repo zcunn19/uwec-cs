@@ -1,4 +1,5 @@
-import java.io.*;
+package Ex7;
+
 import java.util.*;
 
 public class N11 {

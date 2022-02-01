@@ -15,6 +15,8 @@ public class Ex4 {
         System.out.print("Enter a month (1-12): ");
         month = input.nextInt();
 
+        input.close();
+
         switch (month) {
         case 1:
             monthString = "January";

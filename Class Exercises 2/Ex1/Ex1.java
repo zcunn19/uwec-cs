@@ -8,7 +8,7 @@ public class Ex1 {
     }
 
     public static void getGrade() {
-        String name = "Chase";
+        //String name = "Chase";
         int gradeNum;
         int score;
 
@@ -19,6 +19,8 @@ public class Ex1 {
 
         System.out.print("Enter a score: ");
         score = input.nextInt();
+
+        input.close();
 
         String sGrade = null;
         String sScore = null;

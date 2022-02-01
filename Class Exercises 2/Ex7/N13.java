@@ -1,4 +1,4 @@
-import java.util.*;
+package Ex7;
 
 public class N13
 {
